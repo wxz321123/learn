@@ -39,7 +39,7 @@ class Greeting extends Component {
     );
   }
 }
-
+ // 我们在这里定义两个Greeting组件
 const App=(props,context)=>{
   // 我们在这里定义两个Greeting组件
   // 每个都包括一个按钮
@@ -48,7 +48,7 @@ const App=(props,context)=>{
   // 同时注意，现在为Greeting组件指定who属性，已经没有意义，被忽略
   return (
     <div>
-      <Greeting who={'world'} />
+      <git  who={'world'} />
       <Greeting who={'react'} />
     </div>
   )
